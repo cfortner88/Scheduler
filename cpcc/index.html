@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=yes">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="true">
-<script src="jquery-2.2.4.min.js"></script>
-<script src="equipment.min.js"></script>
 
     <title>Study Room Booking & Research Appointments</title>
 
@@ -26,24 +24,39 @@
                 <a href="http://cpcc.libcal.com/spaces?lid=982&gid=1967"><img class="study" alt="studying" src="study.png" style="width:200px;heigh:200px;"/></a>
             </div>
             <div class="imgButton">
-                <p><script src="jquery-2.2.4.min.js"></script>
-<script src="equipment.min.js"></script>
+                <p><script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="//api3.libcal.com/js/equipment.min.js"></script>
 <script>
 jQuery(function(){
    jQuery("#eq_1967").LibCalEquipmentBooking({iid: 727, gid: 1967, eid: 0, width: 560, height: 680});
 });
 </script>
 <!-- Place the following link anywhere in your page. Make sure the id "eq_1967" matches with the above code: jQuery("#eq_1967")  //-->
-<button id="eq_1967" href="#">Book a Space</button>
+<button id="eq_1967" href="#">Book A Space</button>
+<!-- Below is optional button styling  //-->
+<style>
+#eq_1967 {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  color: #333333;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#eq_1967:hover {
+  opacity: 0.9;
+}
+</style>
 </p>
             </div>
             <div class="text">
                 <ul class="caption">
-                    <li class="red"><strong>Two hours per day maximum per student.</strong></li>
+                    <li>Bookings can only be made up to 2 weeks in advance.</li>
                     <li>Bookings will be cancelled if you are 15 minutes late and another user wants to book the same room.</li>
                     <li>Students arriving early for a reservation will be admitted no earlier than 15 minutes prior to the reservation time.</li>
                     <li>Study rooms are for academic use only and are available to current students, faculty, and staff.</li>
-                    <li><a href="http://www.cpcc.edu/library/study-room-reservation-policies-and-procedures" class="link2">Full Room Reservation policies are Available Here.</a></li>
+                    <li>Room Reservation policies are available <a href="http://www.cpcc.edu/library/study-room-reservation-policies-and-procedures" class="link2">here.</a></li>
                     </ul>
             </div>
      </div>
@@ -53,16 +66,13 @@ jQuery(function(){
             <div>
                 <a href="https://goo.gl/bpxcBj"><img class="study" alt="appointments" src="appointments.png" style="width:200px;height:200px;"/></a>
             </div>
-            <div class="imgButton2">
-               <p><a class="black" href="https://goo.gl/bpxcBj">Schedule a Research Appointment</a></p>
+            <div class="imgButton">
+               <p><a href="https://goo.gl/bpxcBj">Schedule a Research Appointment</a></p>
             </div>
             <div class="text">
             <ul class="caption">
-            <li>Appointments must be scheduled at least 2 hours in advance.</li>
-            <li>Appointments are limited to 30 minutes at a time.</li>
-            <li>Students may not book more than one appointment per day and no more than two per week for a
-particular assignment.</li>
-            <li><a href="http://www.cpcc.edu/library/about-the-library/OneonOneSupportTier2.pdf" class="link2">Full Appointment Policies are Available Here</a></li>
+            <li>Schedule an in-person appointment with a librarian to get help with research.</li>
+            <li>Appointments should be made at least 24 hours in advance.</li>
             </ul>
      </div>
         </td>
