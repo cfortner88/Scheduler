@@ -1,0 +1,112 @@
+.imgButton {
+  text-align:center;
+  background-color: #808080;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #333333;
+  padding: 4px;
+  font-size: 20px !important;
+}
+
+.imgButton2 {
+  text-align:center;
+  background-color: #808080;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #333333;
+  padding: 5px;
+  font-size: 20px !important;
+}
+
+table.center { 
+margin-left:auto;
+margin-right:auto;
+padding-top: 25px;
+border-spacing: 20px;
+}
+
+th, td {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:0px;
+    padding-bottom:0px;
+    margin: 0;
+    padding:0;
+    border: 0;
+}
+
+div.text {
+    vertical-align: right;
+    display: inline-block;
+    width: 400px;
+}
+
+.caption{
+    display: block;
+}
+
+td {
+    vertical-align: top;
+    text-align: center;
+}
+
+body, button {
+    font-family: sans-serif;
+    font-size: 100%;
+}
+
+body {
+    font-size: 14px;
+}
+
+li {
+    margin: 1em 0;
+    text-align: left;
+}
+
+body {
+    background-image: url("concrete_seamless.png");
+    height: 100%;
+    overflow:auto;
+}
+
+hr {
+    height: 4px;
+    background-color: #006847;
+    font-size: 0;
+    border: 0;
+    box-shadow: 4px 4px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #333333;
+}
+
+a:visited {
+    color: #333333;
+}
+
+a:link.link2 {
+    text-decoration: underline;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+#eq_1967 {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  cursor: pointer;
+  outline: none;
+}
+.red{
+    color:red;
+}
+a.black{
+    color:black;
+}
